@@ -1,0 +1,78 @@
+body {
+  background: #eff8ff;
+}
+h1,
+h2,
+h3,
+li {
+  color: #51adcf;
+  position: relative;
+  right: -70px;
+  top: 30px;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h3 {
+  padding: 0px;
+  font-size: 20px;
+}
+
+li {
+  font-size: 15px;
+  color: #c4b6b6;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  right: -40px;
+}
+form {
+  text-align: center;
+  padding-top: 30px;
+}
+img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  right: -105px;
+  top: -100px;
+}
+
+.boxed {
+  display: block;
+  margin: 0 auto;
+  border: 5px solid #0278ae;
+  max-width: 510px;
+  position: relative;
+  top: 70px;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  border-radius: 10px;
+}
+
+.row {
+  position: fixed;
+  left: 550px;
+}
+
+.mon {
+  position: relative;
+  right: -10px;
+}
+.tues {
+  position: relative;
+  right: -70px;
+}
+.weds {
+  position: relative;
+  right: -130px;
+}
+.thurs {
+  position: relative;
+  right: -190px;
+}
+.fri {
+  position: relative;
+  right: -260px;
+}
