@@ -13,6 +13,10 @@ li {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
+h1 {
+  line-height: 28px;
+}
 h3 {
   padding: 0px;
   font-size: 20px;
@@ -20,6 +24,7 @@ h3 {
 
 .btn-success {
   background-color: #0278ae;
+  transition: 0.5s ease;
 }
 
 li {
@@ -36,9 +41,9 @@ form {
   padding-top: 30px;
 }
 img {
-  width: 200px;
+  width: 70px;
   display: block;
-  margin: 0 auto;
+  margin-right: 10px;
   position: relative;
   right: -105px;
   top: -100px;
@@ -47,17 +52,12 @@ img {
 .boxed {
   display: block;
   margin: 0 auto;
-  border: 5px solid #0278ae;
-  max-width: 510px;
+  border: 3px solid #0278ae;
+  max-width: 600px;
   position: relative;
   top: 70px;
   background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   border-radius: 10px;
-}
-
-.row {
-  position: fixed;
-  left: 550px;
 }
 
 .mon {
