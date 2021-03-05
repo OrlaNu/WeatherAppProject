@@ -18,6 +18,10 @@ h3 {
   font-size: 20px;
 }
 
+.btn-success {
+  background-color: #0278ae;
+}
+
 li {
   font-size: 15px;
   color: #c4b6b6;
