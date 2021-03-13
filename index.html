@@ -11,6 +11,7 @@
     />
    <link rel="stylesheet" href="src/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/15a99d2b63.js" crossorigin="anonymous"></script>
     </head>
   <body>
     <div class:"container">
@@ -23,22 +24,22 @@
         />
       </form>
       <button class = "btn-success"
-      id ="current-location" style="float: right;">
+      id ="current-location" >
         🌏
       </button>
-      <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" />
+      <i class="fas fa-cloud-sun"></i>
       <h1><span id="temperature"> </span><span> °C | F°</span></h1>
       <h2 id ="city"> 
       </h2>
     
       <ul>
-        <li id= "description"> </li>
         <li id="date"> </li>
       </ul>
      
     <div class="row">
       <div class="col-md-6">
         <ul>
+          <li id="description"> </li>
           <li> 
             Precipitation: 0%
           </li>
@@ -49,6 +50,7 @@
             Wind: 0km/h
           </li>
         </ul>
+        
         <img class="weathergirl" src="src/weathergirlsvg"/>
         <a href="https://github.com/OrlaNu/WeatherAppProject" target="_blank"> GitHub Repository
         </a> 

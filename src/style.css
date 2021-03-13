@@ -51,12 +51,14 @@ form {
   text-align: center;
   padding-top: 30px;
 }
-img {
+i {
   text-align: center;
   display: block;
   margin: 0 auto;
   max-width: 200px;
   padding: 0;
+  color: #c4b6b6;
+  font-size: 50px;
 }
 
 .weathergirl {
