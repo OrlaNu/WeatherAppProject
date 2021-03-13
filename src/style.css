@@ -23,8 +23,19 @@ h3 {
 }
 
 .btn-success {
-  background-color: #0278ae;
-  transition: 0.5s ease;
+  background-color: #74c3e7;
+  position: relative;
+  top: -33px;
+  left: -75px;
+  bottom: 50px;
+  font-size: 15px;
+  color: #accee5;
+  padding: 5px 20px;
+  border-radius: 15px;
+  border: 2px solid #018ccc;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 30%);
+  transition: all 200ms;
 }
 
 li {
@@ -41,12 +52,14 @@ form {
   padding-top: 30px;
 }
 img {
-  width: 70px;
+  text-align: center;
   display: block;
-  margin-right: 10px;
-  position: relative;
-  right: -105px;
-  top: -90px;
+  margin: 0 auto;
+  max-width: 200px;
+  padding: 0;
+}
+
+.weathergirl {
 }
 
 .boxed {
