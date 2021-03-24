@@ -25,8 +25,8 @@ h3 {
 .btn-success {
   background-color: #74c3e7;
   position: relative;
-  top: -33px;
-  left: -75px;
+  top: -53px;
+  left: 400px;
   bottom: 50px;
   font-size: 15px;
   color: #accee5;
@@ -59,6 +59,11 @@ i {
   padding: 0;
   color: #c4b6b6;
   font-size: 50px;
+}
+
+.fab {
+  color: rgb(94, 92, 92);
+  font-size: 20px;
 }
 
 .weathergirl {
