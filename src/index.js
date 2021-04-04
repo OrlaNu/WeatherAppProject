@@ -27,12 +27,16 @@ function showTempreture(response) {
     response.data.main.temp
   );
 
-  document.querySelector("#description").innerHTML =
-    response.data.weather[0].main;
+document.querySelector("#description").innerHTML =
+response.data.weather[0].main;
 document.querySelector("#humidity").innerHTML = 
 response.data.main.humidity;
 document.querySelector("#wind").innerHTML = Math.round(
 response.data.wind.speed);
+document.querySelector("#sunrise").innerHTML =
+response.data.sys.sunrise;
+document.querySelector("#sunset").innerHTML =
+response.data.sys.sunset * 1000;
 
 }
 
