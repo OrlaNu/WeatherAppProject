@@ -50,22 +50,16 @@ form {
   text-align: center;
   padding-top: 30px;
 }
-i {
-  text-align: center;
-  display: block;
+img {
   margin: 0 auto;
-  max-width: 200px;
   padding: 0;
-  color: #c4b6b6;
-  font-size: 50px;
+  position: relative;
+  left: 5px;
 }
 
 .fab {
   color: rgb(94, 92, 92);
   font-size: 20px;
-}
-
-.weathergirl {
 }
 
 .boxed {

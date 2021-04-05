@@ -27,6 +27,8 @@ function showTempreture(response) {
     response.data.main.temp
   );
 
+let iconElement = document.querySelector("#icon");
+
 document.querySelector("#description").innerHTML =
 response.data.weather[0].main;
 document.querySelector("#humidity").innerHTML = 
@@ -37,6 +39,11 @@ document.querySelector("#sunrise").innerHTML =
 response.data.sys.sunrise;
 document.querySelector("#sunset").innerHTML =
 response.data.sys.sunset * 1000;
+document.querySelector("#icon");
+iconElement.setAttribute(
+  "src",
+  `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+);
 
 }
 
