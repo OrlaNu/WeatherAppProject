@@ -3,25 +3,27 @@ body {
 }
 h1,
 h2,
-h3,
 li {
   color: #51adcf;
-  position: relative;
-  right: -70px;
   top: 30px;
   font-size: 30px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-h1 {
+h1,
+h2 {
   line-height: 28px;
-}
-h3 {
-  padding: 0px;
-  font-size: 20px;
+  text-align: center;
 }
 
+h3 {
+  text-align: center;
+  font-size: 16px;
+  color: #c4b6b6;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 .btn-success {
   background-color: #74c3e7;
   position: relative;
@@ -44,17 +46,19 @@ li {
   padding: 0px;
   margin: 0px;
   position: relative;
-  right: -40px;
+  right: -10px;
 }
 form {
   text-align: center;
   padding-top: 30px;
 }
-img {
-  margin: 0 auto;
+#icon {
+  display: block;
+  margin-top: 0px;
+  text-align: center;
   padding: 0;
-  position: relative;
-  left: 5px;
+  height: 130px;
+  width: 130px;
 }
 
 .fab {

@@ -16,7 +16,7 @@ let days = [
   "Tuesday",
   "Wednesay",
   "Thursay",
-  "Friay",
+  "Friday",
   "Saturday",
 ];
 dateElement.innerHTML = `${days[dayIndex]} ${hours}:${minutes}`;
