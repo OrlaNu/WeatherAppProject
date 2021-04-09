@@ -24,19 +24,22 @@ h3 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+.search-btn,
 .btn-success {
   background-color: #74c3e7;
-  position: relative;
-  top: -53px;
-  left: 400px;
-  bottom: 50px;
   font-size: 15px;
-  color: #accee5;
+  color: #f6efed;
   padding: 5px 20px;
   border-radius: 15px;
   border: 2px solid #018ccc;
   cursor: pointer;
   transition: all 200ms;
+}
+.btn-success {
+  position: relative;
+  top: -36px;
+  left: 433px;
+  bottom: 50px;
 }
 
 li {
