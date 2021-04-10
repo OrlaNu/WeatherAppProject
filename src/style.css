@@ -67,16 +67,18 @@ img {
 }
 
 .weather-forecast {
+  position: relative;
+  right: -300px;
+  top: -135px;
   margin-top: 30px;
   padding: 20px;
-  text-align: center;
 }
 
 .weather-forcast-temp-max {
   opacity: 0.9;
 }
 .weather-forcast-temp-min {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .forcast-img {
@@ -100,25 +102,4 @@ img {
   top: 70px;
   background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   border-radius: 10px;
-}
-
-.mon {
-  position: relative;
-  right: -10px;
-}
-.tues {
-  position: relative;
-  right: -70px;
-}
-.weds {
-  position: relative;
-  right: -130px;
-}
-.thurs {
-  position: relative;
-  right: -190px;
-}
-.fri {
-  position: relative;
-  right: -260px;
 }
