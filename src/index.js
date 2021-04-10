@@ -21,28 +21,34 @@ let days = [
 ];
 dateElement.innerHTML = `${days[dayIndex]} ${hours}:${minutes}`;
 
-function displayForecast(response){
-  console.log(response.data.daily); 
+function formatDay(timestamp){
+  let date = new Date (timestamp * 1000);
+  let day = date.getDay();
+  let days = ["Sun", "Mon","Tue","Wed","Thu","Fri", "Sat"];
+  return days[day];
+}
 
+function displayForecast(response){
+  let forecast = response.data.daily; 
   let forecastElement = document.querySelector("#forecast");
 
-  let forecastDays = ["Sat", "Sun", "Mon", "Tues"];
-
   let forecastHTML=`<div class="row">`;
-  forecastDays.forEach(function(day) {
+  forecast.forEach(function(forecastDay, index) {
+    if (index <6){ 
 
   forecastHTML= forecastHTML + `
 
            <div class="col-2"> 
              <div class = "weather-forcast-day">
-               ${day}
+               ${formatDay(forecastDay.dt)}
               </div>
-             <img src="http://openweathermap.org/img/wn/02d@2x.png" alt="" class="forcast-img" />
+             <img src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png" alt="" class="forcast-img" />
             <div class="weather-forcast-temp">
-              <span class="weather-forcast-temp-max"> 18°</span><span class="weather-forcast-temp-min">11°</span>
+              <span class="weather-forcast-temp-max"> ${Math.round(forecastDay.temp.max)}°|</span><span class="weather-forcast-temp-min">${Math.round(forecastDay.temp.min)}°</span>
              </div>
              </div>
               `; 
+              }
               })         
 
   forecast = forecastHTML + `</div`;            
@@ -100,7 +106,7 @@ let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", handleSubmit);
 
 search("New York");
-displayForecast(); 
+
 
 function searchLocation(position){
   let apiKey = "a654db2f9bd0b0e600c5ab56e23dc457";
