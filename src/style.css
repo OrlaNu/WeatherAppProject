@@ -17,7 +17,8 @@ h2 {
   text-align: center;
 }
 
-h3 {
+h3,
+.weather-forecast {
   text-align: center;
   font-size: 16px;
   color: #c4b6b6;
@@ -63,6 +64,20 @@ img {
   text-align: center;
   height: 130px;
   width: 130px;
+}
+
+.weather-forecast {
+}
+.weather-forcast-temp-max {
+  opacity: 0.9;
+}
+.weather-forcast-temp-min {
+  opacity: 0.5;
+}
+
+.forcast-img {
+  width: 36px;
+  height: 36px;
 }
 
 .fab {
