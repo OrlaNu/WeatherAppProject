@@ -67,7 +67,11 @@ img {
 }
 
 .weather-forecast {
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
 }
+
 .weather-forcast-temp-max {
   opacity: 0.9;
 }
@@ -78,6 +82,8 @@ img {
 .forcast-img {
   width: 36px;
   height: 36px;
+  display: block;
+  margin: 0 auto;
 }
 
 .fab {
