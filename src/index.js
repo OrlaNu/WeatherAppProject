@@ -21,6 +21,33 @@ let days = [
 ];
 dateElement.innerHTML = `${days[dayIndex]} ${hours}:${minutes}`;
 
+function displayForecast(){
+  let forecastElement = document.querySelector("#forecast");
+  
+  let forecastDays = ["Sat", "Sun", "Mon", "Tues"];
+
+  let forecastHTML=`<div class="row">`;
+  forecastDays.forEach(function(day) {
+
+  forecastHTML= forecastHTML + `
+
+           <div class="col-2"> 
+             <div class = "weather-forcast-day">
+               ${day}
+              </div>
+             <img src="http://openweathermap.org/img/wn/02d@2x.png" alt="" class="forcast-img" />
+            <div class="weather-forcast-temp">
+              <span class="weather-forcast-temp-max"> 18°</span><span class="weather-forcast-temp-min">11°</span>
+             </div>
+             </div>
+              `; 
+              })         
+
+  forecast = forecastHTML + `</div`;            
+  forecastElement.innerHTML = forecastHTML;            
+}
+
+
 function showTempreture(response) {
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
@@ -63,6 +90,7 @@ let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", handleSubmit);
 
 search("New York");
+displayForecast(); 
 
 function searchLocation(position){
   let apiKey = "a654db2f9bd0b0e600c5ab56e23dc457";
