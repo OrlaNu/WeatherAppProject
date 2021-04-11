@@ -67,9 +67,6 @@ img {
 }
 
 .weather-forecast {
-  position: relative;
-  right: -300px;
-  top: -135px;
   margin-top: 30px;
   padding: 20px;
 }
