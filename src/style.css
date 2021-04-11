@@ -56,10 +56,6 @@ btn-success:visited {
   border: 2px solid #018ccc;
 }
 
-btn-success:focus {
-  background-color: #74c3e7;
-  border: 2px solid #018ccc;
-}
 li {
   font-size: 15px;
   color: #c4b6b6;
