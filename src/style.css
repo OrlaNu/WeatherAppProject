@@ -65,6 +65,13 @@ img {
   height: 130px;
   width: 130px;
 }
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: 0.25;
+}
 
 .weather-forecast {
   margin-top: 30px;
@@ -85,9 +92,13 @@ img {
   margin: 0 auto;
 }
 
-.fab {
+.fab,
+.fas {
   color: rgb(94, 92, 92);
   font-size: 20px;
+  position: relative;
+  top: -36px;
+  left: 433px;
 }
 
 .boxed {
