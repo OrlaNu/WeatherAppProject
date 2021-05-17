@@ -81,6 +81,9 @@ function showTempreture(response) {
   document.querySelector("#sunset").innerHTML = formatHours(
     response.data.sys.sunset
   );
+    document.querySelector("#feelsLike").innerHTML = Math.round(
+    response.data.main.feels_like
+  );
   document.querySelector("#icon");
   iconElement.setAttribute(
     "src",
@@ -134,6 +137,10 @@ function getCurrentLocation (event) {
 let currentLocationButton = document.querySelector 
 ("#current-location-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
+
+
+  
+
 
 
 /// function showTempreture(response) {
