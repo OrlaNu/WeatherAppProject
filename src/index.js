@@ -126,7 +126,6 @@ search("London");
 function searchLocation(position){
   let apiKey = "a654db2f9bd0b0e600c5ab56e23dc457";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKey}&units=metric`;
-  console.log(apiUrl);
   axios.get(apiUrl).then(showTempreture);
 }
 
