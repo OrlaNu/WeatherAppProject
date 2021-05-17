@@ -58,29 +58,52 @@ input::placeholder {
   top: -36px;
   left: 433px;
   bottom: 50px;
+  outline: none;
 }
 
 .btn-success:active {
   background-color: #74c3e7;
+  outline: none;
 }
 .btn-success:hover {
   background-color: #74c3e7;
   border: 2px solid #018ccc;
+  outline: none;
 }
 
 btn-success:visited {
   background-color: #74c3e7;
   border: 2px solid #018ccc;
+  outline: none;
 }
 
 li {
-  font-size: 15px;
+  font-size: 16px;
   color: #c4b6b6;
   list-style-type: none;
   padding: 0px;
   margin: 0px;
   position: relative;
   right: -10px;
+  top: -35px;
+}
+
+p {
+  font-size: 20px;
+  color: #51adcf;
+  opacity: 8;
+  text-align: center;
+  position: relative;
+  top: 75px;
+  left: 150px;
+  margin: 0 auto;
+  padding: 5px 20px;
+  border: 3px solid #74c3e7;
+  border-radius: 10px;
+  max-width: 200px;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 form {
   text-align: center;
@@ -117,10 +140,10 @@ img {
 
 .links {
   color: rgb(94, 92, 92);
-  font-size: 20px;
+  font-size: 25px;
   position: relative;
   top: -36px;
-  left: 500px;
+  left: 250px;
   text-decoration: none;
 }
 
