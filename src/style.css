@@ -21,7 +21,7 @@ h3,
 .weather-forecast {
   text-align: center;
   font-size: 16px;
-  color: #c4b6b6;
+  color: #9e9e9e;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -79,7 +79,7 @@ btn-success:visited {
 
 li {
   font-size: 16px;
-  color: #c4b6b6;
+  color: #9e9e9e;
   list-style-type: none;
   padding: 0px;
   margin: 0px;
@@ -97,9 +97,9 @@ p {
   left: 150px;
   margin: 0 auto;
   padding: 5px 20px;
-  border: 3px solid #018ccc;
+  border: 2px solid #018ccc;
   border-radius: 10px;
-  background-color: #74c3e7;
+  background-color: #85c5e2;
   max-width: 200px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
